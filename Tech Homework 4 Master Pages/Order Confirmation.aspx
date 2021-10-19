@@ -6,7 +6,8 @@
     <br />
     <br />
     <center>
-        <h1>Order Confirmation
+        
+        <h1><i class="fas fa-check"></i>&nbsp;Order Confirmation
         </h1>
         <h2>Order placed on November 18, 2021 @10:24 AM EST
         </h2>
