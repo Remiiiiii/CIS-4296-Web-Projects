@@ -1738,9 +1738,11 @@
     <Content Include="js\jquery-3.5.1.min.js" />
     <Content Include="js\popper.min.js" />
     <Content Include="New User.aspx" />
+    <Content Include="Order Confirmation.aspx" />
     <Content Include="PageTwo.aspx" />
     <Content Include="Pet Record Results.aspx" />
     <Content Include="Pet Record.aspx" />
+    <Content Include="Place Order.aspx" />
     <Content Include="style.css" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -1766,6 +1768,13 @@
     <Compile Include="New User.aspx.designer.cs">
       <DependentUpon>New User.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Order Confirmation.aspx.cs">
+      <DependentUpon>Order Confirmation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Order Confirmation.aspx.designer.cs">
+      <DependentUpon>Order Confirmation.aspx</DependentUpon>
+    </Compile>
     <Compile Include="PageTwo.aspx.cs">
       <DependentUpon>PageTwo.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -1786,6 +1795,13 @@
     </Compile>
     <Compile Include="Pet Record.aspx.designer.cs">
       <DependentUpon>Pet Record.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Place Order.aspx.cs">
+      <DependentUpon>Place Order.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Place Order.aspx.designer.cs">
+      <DependentUpon>Place Order.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

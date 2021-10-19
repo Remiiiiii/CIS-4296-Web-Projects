@@ -8,55 +8,42 @@
             <section>
                 <div class="hello">
                     <h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                         Pet Meds Search Results</h3>
+                         Contact Info</h3>
                 </div>
 
             </section>
             <section class="col-6 col-sm-6 col-md-5">
                 <div class="form-row m-5">
                     <div class="col-md-4 mb-5 m-5">
-                        <label for="validationDefault01">First name</label>
-                        <input type="text" class="form-control" id="validationDefault01" placeholder="First name" value="Joe" required>
+                        <label for="inputfirstname">First name</label>
+                        <input type="text" class="form-control" id="inputfirstname" placeholder="First name" value="Joe">
                     </div>
                     <div class="col-md-4 mb-3 m-5">
-                        <label for="validationDefault02">Last name</label>
-                        <input type="text" class="form-control" id="validationDefault02" placeholder="Last name" value="Shmo" required>
+                        <label for="inputlastname">Last name</label>
+                        <input type="text" class="form-control" id="inputLastname" placeholder="Last name" value="Shmo">
                     </div>
                     <div class="col-md-5 mb-3 m-5">
-                        <label for="validationDefaultUsername">Username</label>
-                        <div class="input-group">
-                            <div class="input-group-prepend">
-                                <span class="input-group-text" id="inputGroupPrepend2">@</span>
-                            </div>
-                            <input type="text" class="form-control" id="validationDefaultUsername" placeholder="I'm gonna get you sucka" aria-describedby="inputGroupPrepend2" required>
-                        </div>
-                    </div>
-                </div>
+                        <label for="inputUsername">Address</label>
+                        <input type="text" class="form-control" id="inputAddress" placeholder="Address" value="4269 bottom of the barrel st.">
 
-                <div class="form-group">
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
-                        <label class="form-check-label" for="invalidCheck2">
-                            Agree to terms and conditions
-                        </label>
+                       
                     </div>
                 </div>
-                <button class="btn btn-primary" type="submit">Submit form</button>
             </section>
 
             <section class="col-6 col-sm-6 col-md-6">
                 <div class="form-row">
                     <div class="col-md-6 mb-3">
-                        <label for="validationDefault03">City</label>
-                        <input type="text" class="form-control" id="validationDefault03" placeholder="Whack" required>
+                        <label for="inputCity">City</label>
+                        <input type="text" class="form-control" id="inputCity" placeholder="Whack">
                     </div>
                     <div class="col-md-3 mb-3">
-                        <label for="validationDefault04">State</label>
-                        <input type="text" class="form-control" id="validationDefault04" placeholder="Penitentiary" required>
+                        <label for="inputState">State</label>
+                        <input type="text" class="form-control" id="inputState" placeholder="Penitentiary">
                     </div>
                     <div class="col-md-3 mb-3">
-                        <label for="validationDefault05">Zip</label>
-                        <input type="text" class="form-control" id="validationDefault05" placeholder="12345" required>
+                        <label for="inputZip">Zip</label>
+                        <input type="text" class="form-control" id="inputZip" placeholder="12345">
                     </div>
                 </div>
             </section>
@@ -80,37 +67,50 @@
                     <h5>Medication
                     </h5>
                 </div>
-                </div>
-                <div class="col">
-                    <div class="color">
-                        <h5>Number of Refills
-                        </h5>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="color">
-                        <h5>In Stock
-                        </h5>
-                    </div>
+            </div>
+            <div class="col">
+                <div class="color">
+                    <h5>Number of Refills
+                    </h5>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-3">Dog</div>
-                <div class="col-3">Flee-Be-Gone</div>
-                <div class="col-3">00</div>
-                <div class="col-3">No</div>
-            </div>
-            <div class="row">
-                <div class="col-3">Cat</div>
-                <div class="col-3">Tic-Be-Gone</div>
-                <div class="col-3">3</div>
-                <div class="col-3">Yes</div>
-            </div>
-            <div class="row">
-                <div class="col-3">T-Rex</div>
-                <div class="col-3">Extinction Resistence</div>
-                <div class="col-3">Infinity</div>
-                <div class="col-3">Yes</div>
+            <div class="col">
+                <div class="color">
+                    <h5>In Stock
+                    </h5>
+                </div>
             </div>
         </div>
+        <div class="row">
+            <div class="col-3">Dog</div>
+            <div class="col-3">Flee-Be-Gone</div>
+            <div class="col-3">00</div>
+            <div class="col-3">No</div>
+        </div>
+        <div class="row">
+            <div class="col-3">Cat</div>
+            <div class="col-3">Tic-Be-Gone</div>
+            <div class="col-3">03</div>
+            <div class="col-3">Yes</div>
+        </div>
+        <div class="row">
+            <div class="col-3">T-Rex</div>
+            <div class="col-3">Extinction Resistence</div>
+            <div class="col-3">Infinity</div>
+            <div class="col-3">Yes</div>
+        </div>
+    </div>
+    <br />
+    <div class="row">
+        <center>
+            <a class=" col-1 btn btn-secondary" href="Pet Record.aspx" type="submit">Back</a>
+            <button class=" col-1 btn btn-secondary" type="submit">Refill Medication</button>
+            <a class=" col-1 btn btn-secondary" href="#" type="submit">Place Order</a>
+        </center>
+
+
+
+    </div>
+    <br />
+    <br />
 </asp:Content>
