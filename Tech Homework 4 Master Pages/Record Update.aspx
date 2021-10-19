@@ -1,9 +1,8 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Main.Master" AutoEventWireup="true" CodeBehind="Pet Record Results.aspx.cs" Inherits="Tech_Homework_4_Master_Pages.Pet_Record_Results" %>
-
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Main.Master" AutoEventWireup="true" CodeBehind="Record Update.aspx.cs" Inherits="Tech_Homework_4_Master_Pages.Record_Update" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <section>
+     <section>
         <section class="row">
             <section>
                 <div class="hello">
@@ -84,8 +83,8 @@
         <div class="row">
             <div class="col-3">Dog</div>
             <div class="col-3">Flee-Be-Gone</div>
-            <div class="col-3">00</div>
-            <div class="col-3">No</div>
+            <div class="col-3">04</div>
+            <div class="col-3">Yes</div>
         </div>
         <div class="row">
             <div class="col-3">Cat</div>
@@ -104,7 +103,7 @@
     <div class="row">
         <center>
             <a class=" col-1 btn btn-secondary" href="Pet Record.aspx" type="submit">Back</a>
-            <a class=" col-1 btn btn-secondary" href="Refill Request.aspx" type="submit">Refill Medication</a>
+            <a class=" col-1 btn btn-secondary" href="#" type="submit">Refill Medication</a>
             <a class=" col-1 btn btn-secondary" href="Place Order.aspx" type="submit">Place Order</a>
         </center>
 

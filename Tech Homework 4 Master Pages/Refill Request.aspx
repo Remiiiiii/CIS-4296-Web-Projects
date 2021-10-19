@@ -1,9 +1,8 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Main.Master" AutoEventWireup="true" CodeBehind="Place Order.aspx.cs" Inherits="Tech_Homework_4_Master_Pages.Place_Order" %>
-
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Main.Master" AutoEventWireup="true" CodeBehind="Refill Request.aspx.cs" Inherits="Tech_Homework_4_Master_Pages.Refill_Request" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <section>
+      <section>
         <section class="container-fluid">
             <section class="row">
                 <center>
@@ -12,7 +11,7 @@
                             <div class="mb-3 row">
                                 <center>
                                     <br />
-                                    <h3>Order Request for the Dispensing Department</h3>
+                                    <h3>Refill Request for the Dispensing Department</h3>
                                     <br />
                                 </center>
                                 <label for="inputMedication" class="col-sm-2 col-form-label">Medication:</label>
@@ -40,7 +39,7 @@
                                     <center>
                                         <br />
                                         <div class="col-auto">
-                                            <a class="btn btn-secondary btn-lg mb-3" href="Order Confirmation.aspx">Place Order</a>
+                                            <a class="btn btn-secondary btn-lg mb-3" href="Record Update.aspx">Refill</a>
                                         </div>
                                     </center>
                                 </div>

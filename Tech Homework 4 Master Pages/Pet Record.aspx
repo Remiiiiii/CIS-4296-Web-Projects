@@ -14,13 +14,13 @@
                                     <h3>Search for pet and owner</h3>
                                     <br />
                                 </center>
-                                <label for="Name" class="col-sm-2 col-form-label">Pet Owner's First Name</label>
+                                <label for="Name" class="col-sm-2 col-form-label">Pet Owner's First Name:</label>
                                 <div class="col-sm-10">
                                     <input type="text" class="form-control" id="inputName">
                                 </div>
                             </div>
                             <div class="mb-3 row">
-                                <label for="inputLastName" class="col-sm-2 col-form-label">Pet Owner's Last Name</label>
+                                <label for="inputLastName" class="col-sm-2 col-form-label">Pet Owner's Last Name:</label>
                                 <div class="col-sm-10 mb-3">
                                     <input type="text" class="form-control" id="inputlastName">
                                 </div>
@@ -38,4 +38,7 @@
             </section>
         </section>
     </section>
+    <br />
+    <br />
+    <br />
 </asp:Content>

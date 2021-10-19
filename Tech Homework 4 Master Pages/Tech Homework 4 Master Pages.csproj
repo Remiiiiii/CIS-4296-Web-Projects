@@ -1731,6 +1731,7 @@
     <Content Include="fontawesome-free-5.15.4-web\webfonts\fa-brands-400.svg" />
     <Content Include="fontawesome-free-5.15.4-web\webfonts\fa-regular-400.svg" />
     <Content Include="fontawesome-free-5.15.4-web\webfonts\fa-solid-900.svg" />
+    <Content Include="Forgot Password.aspx" />
     <Content Include="imgs\banner.png" />
     <Content Include="imgs\menu.png" />
     <Content Include="js\all.min.js" />
@@ -1743,6 +1744,8 @@
     <Content Include="Pet Record Results.aspx" />
     <Content Include="Pet Record.aspx" />
     <Content Include="Place Order.aspx" />
+    <Content Include="Record Update.aspx" />
+    <Content Include="Refill Request.aspx" />
     <Content Include="style.css" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -1753,6 +1756,13 @@
     </Compile>
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forgot Password.aspx.cs">
+      <DependentUpon>Forgot Password.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forgot Password.aspx.designer.cs">
+      <DependentUpon>Forgot Password.aspx</DependentUpon>
     </Compile>
     <Compile Include="Main.Master.cs">
       <DependentUpon>Main.Master</DependentUpon>
@@ -1804,6 +1814,20 @@
       <DependentUpon>Place Order.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Record Update.aspx.cs">
+      <DependentUpon>Record Update.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Record Update.aspx.designer.cs">
+      <DependentUpon>Record Update.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Refill Request.aspx.cs">
+      <DependentUpon>Refill Request.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Refill Request.aspx.designer.cs">
+      <DependentUpon>Refill Request.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="Main.Master" />

@@ -27,17 +27,19 @@
                                 <h3>Login existing user</h3>
                                 <br />
                             </center>
-                            <label for="inputEmail" class="col-sm-2 col-form-label">Email</label>
+                            <label for="inputEmail" class="col-sm-2 col-form-label">Email:</label>
                             <div class="col-sm-10">
                                 <input type="text" class="form-control" id="inputEmail">
                             </div>
                         </div>
                         <div class="mb-3 row">
-                            <label for="inputPassword" class="col-sm-2 col-form-label">Password</label>
+                            <label for="inputPassword" class="col-sm-2 col-form-label">Password:</label>
                             <div class="col-sm-10 mb-3">
                                 <input type="password" class="form-control" id="inputPassword">
-                            </div>
-                            <center>
+                           
+                            <a type="button" href="Forgot Password.aspx" class="btn btn-link">Forgot Password?</a>
+                           </div>
+                                <center>
                                 <div class="col-auto">
                                     <a class="btn btn-secondary mb-3" href="Pet Record.aspx">Login</a>
                                 </div>
