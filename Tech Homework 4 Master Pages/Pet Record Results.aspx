@@ -62,17 +62,55 @@
             </section>
         </section>
     </section>
-    <div class="container">
+    <center>
+        <h2>Search Results
+        </h2>
+        <br />
+    </center>
+    <div class="form-container">
         <div class="row align-items-start">
             <div class="col">
-                One of three columns
+                <div class="color">
+                    <h5>Pet Type
+                    </h5>
+                </div>
             </div>
             <div class="col">
-                One of three columns
+                <div class="color">
+                    <h5>Medication
+                    </h5>
+                </div>
+                </div>
+                <div class="col">
+                    <div class="color">
+                        <h5>Number of Refills
+                        </h5>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="color">
+                        <h5>In Stock
+                        </h5>
+                    </div>
+                </div>
             </div>
-            <div class="col">
-                One of three columns
+            <div class="row">
+                <div class="col-3">Dog</div>
+                <div class="col-3">Flee-Be-Gone</div>
+                <div class="col-3">00</div>
+                <div class="col-3">No</div>
             </div>
-        </div>
+            <div class="row">
+                <div class="col-3">Cat</div>
+                <div class="col-3">Tic-Be-Gone</div>
+                <div class="col-3">3</div>
+                <div class="col-3">Yes</div>
+            </div>
+            <div class="row">
+                <div class="col-3">T-Rex</div>
+                <div class="col-3">Extinction Resistence</div>
+                <div class="col-3">Infinity</div>
+                <div class="col-3">Yes</div>
+            </div>
         </div>
 </asp:Content>
