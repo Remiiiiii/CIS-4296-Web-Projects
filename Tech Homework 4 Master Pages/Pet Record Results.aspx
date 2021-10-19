@@ -5,28 +5,34 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <section>
         <section class="row">
-            <section class="col-6 col-sm-6 col-md-6">
+            <section>
+                <div class="hello">
+                    <h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                         Pet Meds Search Results</h3>
+                </div>
 
-                <div class="form-row">
-                    <div class="col-md-4 mb-3">
+            </section>
+            <section class="col-6 col-sm-6 col-md-5">
+                <div class="form-row m-5">
+                    <div class="col-md-4 mb-5 m-5">
                         <label for="validationDefault01">First name</label>
-                        <input type="text" class="form-control" id="validationDefault01" placeholder="First name" value="Mark" required>
+                        <input type="text" class="form-control" id="validationDefault01" placeholder="First name" value="Joe" required>
                     </div>
-                    <div class="col-md-4 mb-3">
+                    <div class="col-md-4 mb-3 m-5">
                         <label for="validationDefault02">Last name</label>
-                        <input type="text" class="form-control" id="validationDefault02" placeholder="Last name" value="Otto" required>
+                        <input type="text" class="form-control" id="validationDefault02" placeholder="Last name" value="Shmo" required>
                     </div>
-                    <div class="col-md-4 mb-3">
+                    <div class="col-md-5 mb-3 m-5">
                         <label for="validationDefaultUsername">Username</label>
                         <div class="input-group">
                             <div class="input-group-prepend">
                                 <span class="input-group-text" id="inputGroupPrepend2">@</span>
                             </div>
-                            <input type="text" class="form-control" id="validationDefaultUsername" placeholder="Username" aria-describedby="inputGroupPrepend2" required>
+                            <input type="text" class="form-control" id="validationDefaultUsername" placeholder="I'm gonna get you sucka" aria-describedby="inputGroupPrepend2" required>
                         </div>
                     </div>
                 </div>
-               
+
                 <div class="form-group">
                     <div class="form-check">
                         <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
@@ -39,21 +45,34 @@
             </section>
 
             <section class="col-6 col-sm-6 col-md-6">
-                 <div class="form-row">
+                <div class="form-row">
                     <div class="col-md-6 mb-3">
                         <label for="validationDefault03">City</label>
-                        <input type="text" class="form-control" id="validationDefault03" placeholder="City" required>
+                        <input type="text" class="form-control" id="validationDefault03" placeholder="Whack" required>
                     </div>
                     <div class="col-md-3 mb-3">
                         <label for="validationDefault04">State</label>
-                        <input type="text" class="form-control" id="validationDefault04" placeholder="State" required>
+                        <input type="text" class="form-control" id="validationDefault04" placeholder="Penitentiary" required>
                     </div>
                     <div class="col-md-3 mb-3">
                         <label for="validationDefault05">Zip</label>
-                        <input type="text" class="form-control" id="validationDefault05" placeholder="Zip" required>
+                        <input type="text" class="form-control" id="validationDefault05" placeholder="12345" required>
                     </div>
                 </div>
             </section>
         </section>
     </section>
+    <div class="container">
+        <div class="row align-items-start">
+            <div class="col">
+                One of three columns
+            </div>
+            <div class="col">
+                One of three columns
+            </div>
+            <div class="col">
+                One of three columns
+            </div>
+        </div>
+        </div>
 </asp:Content>
