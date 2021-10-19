@@ -1,0 +1,49 @@
+﻿html,
+body {
+    height: 100%;
+    font-family: 'sans-serif', sans-serif;
+    scroll-behavior: smooth;
+}
+.navbar {
+    background-color: #b19cd9;
+    font-size: 20px;
+}
+
+.nav-link {
+    color: white;
+}
+
+.faded {
+    opacity: 0.8
+}
+
+.landing {
+    min-height: 100%;
+    min-height: calc(100% - 56px);
+    padding-top: 56px;
+}
+
+.btn-outline {
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+    opacity: 0.5;
+    transition: 0.3s;
+}
+
+    .btn-outline:hover {
+        opacity: 1;
+    }
+
+.lang {
+    height: 60px;
+    transition: 0.3s;
+}
+
+.contacticon {
+    font-size: 65px;
+}
+
+    .contacticon a {
+        color: rgb(33, 37, 41);
+    }

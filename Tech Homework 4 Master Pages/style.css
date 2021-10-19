@@ -1,0 +1,52 @@
+﻿.footerlinks {
+    color: #ffffff;
+    text-decoration: none !important;
+}
+
+    .footerlinks:hover {
+        color: #ffd800;
+    }
+
+#footer1 {
+    background: #1B1464;
+    padding: 10px;
+    
+}
+
+#footer2 {
+    background: #1B1464;
+}
+
+.banner {
+    width: 100%;
+}
+
+.form-container {
+    background: #fff;
+    padding: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 0px #1B1464;
+}
+
+.btn-primary {
+    color: #000000;
+}
+
+.container-fluid {
+    padding-bottom: 40px
+    
+}
+
+.navbar-nav {
+    padding-right: 50px;
+}
+.nav-item {
+    padding-left: 50px;
+
+}
+
+.col-xs-12 {
+    padding-top: 20px;
+}
